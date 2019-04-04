@@ -14,7 +14,7 @@ class Beer {
   factory Beer.fromJson(Map<String, dynamic> json) {
     return Beer(
       id: json['id'],
-      name: json['name'],
+      name: json['first_brewed'],
       imageUrl: json['image_url'],
     );
   }
